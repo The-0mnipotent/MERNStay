@@ -7,7 +7,7 @@ import mongoose from "mongoose";
 
 import path from "path";
 import authRoutes from "./routes/auth";
-// import hotelRoutes from "./routes/hotels";
+import hotelRoutes from "./routes/hotels";
 // import bookingRoutes from "./routes/my-bookings";
 import myHotelRoutes from "./routes/my-hotels";
 import userRoutes from "./routes/users";
@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname, "../../frontend/dist")));
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/my-hotels", myHotelRoutes);
-// app.use("/api/hotels", hotelRoutes);
+app.use("/api/hotels", hotelRoutes);
 // app.use("/api/my-bookings", bookingRoutes);
 
 app.get("*", (req: Request, res: Response) => {
@@ -47,9 +47,7 @@ app.listen(7000, async () => {
     mongoose
       .connect(process.env.MONGODB_CONNECTION_STRING as string)
       .then(() => {
-        console.log(
-          `Connect to Database : ${process.env.MONGODB_CONNECTION_STRING}`
-        );
+        console.log(`Connect to Database `);
       });
   } catch (error) {
     console.log("Error Connecting Database : ", error);
