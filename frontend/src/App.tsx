@@ -5,7 +5,9 @@ import {
   Routes,
 } from "react-router-dom";
 import { useAppContext } from "./contexts/AppContext";
+import AboutMeLayout from "./layouts/AboutMeLayout";
 import Layout from "./layouts/Layout";
+import AboutMe from "./pages/AboutMe";
 import AddHotel from "./pages/AddHotel";
 import Booking from "./pages/Booking";
 import Detail from "./pages/Detail";
@@ -28,6 +30,14 @@ const App = () => {
             <Layout>
               <Home />
             </Layout>
+          }
+        />
+        <Route
+          path="/me"
+          element={
+            <AboutMeLayout>
+              <AboutMe />
+            </AboutMeLayout>
           }
         />
         <Route

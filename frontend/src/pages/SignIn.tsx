@@ -77,7 +77,7 @@ const SignIn = () => {
         </span>
         <button
           type="submit"
-          className="bg-blue-600 text-white p-2 font-bold hover:bg-blue-500 text-xl"
+          className="bg-col1 text-white p-2 font-bold hover:bg-gray text-xl"
         >
           Login
         </button>

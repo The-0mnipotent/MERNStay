@@ -23,7 +23,7 @@ const MyHotels = () => {
         <h1 className="text-3xl font-bold">My Hotels</h1>
         <Link
           to="/add-hotel"
-          className="flex bg-blue-600 text-white text-xl font-bold p-2 hover:bg-blue-500"
+          className="flex bg-col1 text-white text-xl font-bold p-2 hover:bg-gray hover:text-col1"
         >
           Add Hotel
         </Link>
@@ -60,7 +60,7 @@ const MyHotels = () => {
             <span className="flex justify-end">
               <Link
                 to={`/edit-hotel/${hotel._id}`}
-                className="flex bg-blue-600 text-white text-xl font-bold p-2 hover:bg-blue-500"
+                className="flex bg-col1 text-white text-xl font-bold p-2 hover:bg-gray hover:text-col1"
               >
                 View Details
               </Link>
