@@ -82,6 +82,38 @@ To use the Hotel Booking Application, follow these steps:
 6. Confirm the booking using toastify notification.
 7. Check your Bookings in My Bookings section.
 
+## ScreenShots
+
+### Home Page
+
+![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/d055a483-7dc4-4187-8786-e8142143fc31)
+
+### Single Hotel Page
+
+![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/79449ba6-69e1-41d6-9d45-e6562c5c7eca) ![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/03fa0a59-636e-446c-8afc-3dc50ab4ac00)
+
+### My Bookings Page
+
+![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/5a0b60c0-ecb2-4587-9824-3c2c022f2cdf)
+
+### Search Page
+
+![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/faa9dfbc-64cd-40fe-9ad8-af7b7b3d6752)
+
+### Serach with Filtering/Sorting 
+
+![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/f560897d-9743-43c1-8f23-96933c72cd45)
+
+
+### Your Add/Added Hotels for business
+
+![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/306e63bf-b252-4c96-9a40-6af1520480f9)
+
+### Update Hotel Detail
+
+![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/ed550f90-3f4d-41f2-97bc-461acc76ca79) ![image](https://github.com/The-0mnipotent/MERNStay/assets/80109914/debe3253-0183-413d-8ee6-2c5442ce1a11)
+
+
 ## Contributing
 
 Contributions are welcome! Please follow these guidelines:
