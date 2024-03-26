@@ -14,36 +14,6 @@ The Hotel Booking Application is a web-based platform designed to simplify hotel
 - Robust automated tests ensuring functionality across all features.
 - Seamless reservation process with booking confirmation and email notifications.
 
-## Tech Stack
-
-### Client Side/Front-end
-
-- @stripe/react-stripe-js: 2.5.1
-- @stripe/stripe-js: 3.0.6
-- react: 18.2.0
-- react-datepicker: 6.2.0
-- react-dom: 18.2.0
-- react-hook-form: 7.49.2
-- react-icons: 5.0.1
-- react-query: 3.39.3
-- react-router-dom: 6.22.2
-
-### API Side/Backend
-
-- bcryptjs: 2.4.3
-- cloudinary: 2.0.2
-- cookie-parser: 1.4.6
-- cors: 2.8.5
-- cross-env: 7.0.3
-- dotenv: 16.3.1
-- express: 4.18.2
-- express-validator: 7.0.1
-- jsonwebtoken: 9.0.2
-- mongodb: 6.3.0
-- mongoose: 8.2.0
-- multer: 1.4.5-lts.1
-- stripe: 14.19.0
-
 ## Installation
 
 To run the Hotel Booking Application locally, follow these steps:
@@ -81,6 +51,36 @@ To use the Hotel Booking Application, follow these steps:
 5. Enter guest details and payment information.
 6. Confirm the booking using toastify notification.
 7. Check your Bookings in My Bookings section.
+
+## Tech Stack
+
+### Client Side/Front-end
+
+- @stripe/react-stripe-js: 2.5.1
+- @stripe/stripe-js: 3.0.6
+- react: 18.2.0
+- react-datepicker: 6.2.0
+- react-dom: 18.2.0
+- react-hook-form: 7.49.2
+- react-icons: 5.0.1
+- react-query: 3.39.3
+- react-router-dom: 6.22.2
+
+### API Side/Backend
+
+- bcryptjs: 2.4.3
+- cloudinary: 2.0.2
+- cookie-parser: 1.4.6
+- cors: 2.8.5
+- cross-env: 7.0.3
+- dotenv: 16.3.1
+- express: 4.18.2
+- express-validator: 7.0.1
+- jsonwebtoken: 9.0.2
+- mongodb: 6.3.0
+- mongoose: 8.2.0
+- multer: 1.4.5-lts.1
+- stripe: 14.19.0
 
 ## ScreenShots
 
